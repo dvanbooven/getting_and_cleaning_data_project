@@ -19,7 +19,6 @@ if (!file.exists(zfile)) {
 unzip(zfile)
 setwd("UCI HAR Dataset")
 
-
 # Second obtain the features that you want and rename them to human readable (part of objective 2)
 features <- read.table("features.txt")
 keep_features <- grepl("mean|std", as.character(features[,2]))
@@ -34,7 +33,6 @@ keep_feature_names <- gsub("^f", "FrequencyDomain", keep_feature_names)
 keep_feature_names <- gsub("^t", "TimeDomain", keep_feature_names)
 keep_feature_names <- gsub("[-()]", "", keep_feature_names)
 
-
 activity_labels <- read.table("activity_labels.txt")
 
 
@@ -47,9 +45,7 @@ testSub <- read.table("test/subject_test.txt")
 testVal <- read.table("test/X_test.txt")[keep_features]
 testAct <- read.table("test/y_test.txt")
 
-
 # Fourth is to merge all of the data together into 1 single table (objective 1)
-
 main_table <- rbind(cbind(trainSub, trainAct, trainVal), cbind(testSub, testAct, testVal))
 
 # Fifth is to change the column names to make it descriptive human readable (objective 4), and change activity column to appropriate human readable data (objective 3)

@@ -5,9 +5,8 @@ Data was obtained from [link](http://archive.ics.uci.edu/ml/datasets/Human+Activ
 
 ### Variables
 ***
-##### **Subject** - Subject ID for the individual ranging from 1 to 30.
-
-##### **Activity** - Description of the possible activities during measurement with 6 possible values :
+##### `Subject` - Subject ID for the individual ranging from 1 to 30.
+##### `Activity` - Description of the possible activities during measurement with 6 possible values :
   * LAYING (value 6) - subject laying at time of measurement
   * SITTING (value 4) - subject was sitting at time of measurement
   * STANDING (value 5) - subject was standing at time of measurement
@@ -34,6 +33,7 @@ t                 |    TimeDomain
 
 
 ### Measurements
+***
 Measurments were all done in two domains (frequency and time).  For more information about each of the individual data points please visit [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 * `TimeDomainBodyAccelerometerMeanX`
