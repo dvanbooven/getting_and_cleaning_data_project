@@ -1,6 +1,6 @@
 ### Data
 ***
-Data was obtained from [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), run through `commands.R` in this repository. The resulting data is contained in `tidy_data.txt` which is a text file with fields separated by a single space.  The first row contains the header information which is described in detail below.
+Data was obtained from [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), run through `run_analysis.R` in this repository. The resulting data is contained in `tidy_data.txt` which is a text file with fields separated by a single space.  The first row contains the header information which is described in detail below.
 
 
 ### Variables

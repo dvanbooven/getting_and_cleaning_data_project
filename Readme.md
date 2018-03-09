@@ -18,4 +18,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## How to Run
 
-The repository contains only 1 simple R script (commands.R) which does all the required work.  Just run the script and it will take care of the rest.  The output will be a single file called tidy_data.txt which will be the final tidy dataset of means that were described above.
+The repository contains only 1 simple R script (run_analysis.R) which does all the required work.  Just run the script and it will take care of the rest.  The output will be a single file called tidy_data.txt which will be the final tidy dataset of means that were described above.
