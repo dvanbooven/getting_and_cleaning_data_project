@@ -1,14 +1,5 @@
----
-title: "Codebook"
-author: "Derek Van Booven"
-date: "March 9, 2018"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 ### Data
+***
 Data was obtained from [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), run through `commands.R` in this repository. The resulting data is contained in `tidy_data.txt` which is a text file with fields separated by a single space.  The first row contains the header information which is described in detail below.
 
 
